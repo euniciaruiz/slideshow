@@ -1,0 +1,138 @@
+
+  #imagePreview {
+      width: 100px;
+      height: 100px;
+      background-position: center center;
+      background-size: cover;
+      -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+      -webkit-filter: grayscale(100%);
+      background-image:url('http://139.162.25.179/pepper/eunice/product_introduction/images/10444570_520472704745997_5382072473648545951_n.jpg');
+      opacity: 0.3;
+      float: right;
+      border: solid #fff 3px;
+  }
+
+  #addImageToSlideShow {
+    display: inline-block;
+    margin-top: 30px;
+    width: 400px;
+  }
+
+  #savedImages {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #4C8A95;
+    border-width: 1px;
+    overflow: auto;
+  }
+
+  #submitImage {
+    float: right;
+    margin-top: 5px;
+  }
+
+  #autoplay {
+    margin: 50px auto;
+    position: relative;
+    height: 1067;
+    width: 1707;
+    padding: 10px;
+  }
+
+  #autoplay > div{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .deleteImageFromSlideShow {
+    cursor: pointer;
+    width: 40%;
+    text-align: center;
+    float: right;
+  	padding: 0.2em;
+    margin-top: 12px;
+  }
+
+  #trash {
+    color: #8A8989;
+  }
+
+  body {
+    background-color: #DAEEF3;
+
+  }
+
+  .container {
+    margin: auto;
+    width: 500px;
+  }
+
+  #successAddingImage, #failedAddingImage, #failedDeletingImage , #successDeletingImage {
+    margin: auto;
+  }
+
+  #slidesTable {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  table#slidesTable tr:nth-child(even) {
+    background-color: #AED4DD;
+  }
+
+  table#slidesTable tr:nth-child(odd) {
+    background: #F8FDFE;
+  }
+
+
+  .nav.nav-tabs {
+    height: auto;
+    width: 470px;
+    margin: auto;
+    border: none;
+  }
+  .nav.nav-tabs a {
+    background-color: #DAEEF3 ;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: black;
+    border-bottom: none;
+  }
+
+  .nav.nav-tabs li.active a{
+    background-color: #F8FDFE;
+    color: #4C8A95;
+    border: solid #4C8A95 1px;
+  }
+
+  .nav.nav-tabs li.active:hover a{
+    background-color: #DAEEF3;
+    color: #4C8A95;
+    border: solid #000 1px;
+  }
+  .nav.nav-tabs li:hover a{
+    background-color: #DAEEF3;
+    color: #4C8A95;
+    border: none;
+  }
+
+  .domremy-header {
+    color: red;
+    display: none;
+  }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #AED4DD;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
